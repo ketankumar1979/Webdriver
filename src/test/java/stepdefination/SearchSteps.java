@@ -12,6 +12,7 @@ public class SearchSteps {
 HomePage homePage = new HomePage();
 ResultPage resultPage = new ResultPage();
 
+
     @Given("^user on home page$")
     public void user_on_home_page() throws Throwable {
 
@@ -22,7 +23,7 @@ ResultPage resultPage = new ResultPage();
 
     @When("^user search for a product$")
     public void user_search_for_a_product() throws Throwable {
-        homePage.dosearch("nike");
+        homePage.dosearch("puma");
         //String actual2 = homePage.getHomePageUrl();
         //Assert.assertThat(actual2,Matchers.endsWith("/search/nike/"));
 
