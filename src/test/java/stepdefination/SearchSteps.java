@@ -23,7 +23,7 @@ ResultPage resultPage = new ResultPage();
 
     @When("^user search for a product$")
     public void user_search_for_a_product() throws Throwable {
-        homePage.dosearch("puma");
+        homePage.dosearch("Adidas");
         //String actual2 = homePage.getHomePageUrl();
         //Assert.assertThat(actual2,Matchers.endsWith("/search/nike/"));
 
